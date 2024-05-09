@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: student-demo
+  datasource:
+    generate-unique-name: false
+    name: student-demo
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+
